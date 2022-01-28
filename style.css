@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.banner {
+  box-shadow: 0px 8px 20px #eee;  
+  width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0spx;
+    margin-left: 23em;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+
+}
+.navbar ul li {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.secondHalf{
+	width: 40%;
+    float: right;
+    margin-top: -249px;
+    background-color: #fff;
+    padding: 60px 60px 44px;
+}
+
+.secondHalf h1 {
+    padding-bottom: 20px;
+}
+
+.secondHalf p {
+  line-height: 1.4em;
+}
+
+
+
+
+.mainImg{
+	background: url(/young-handsome-physician-medical-robe-with-stethoscope.jpg) no-repeat center / cover;
+    padding: 50% 0 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 360px) {
+    .mainImg {
+        background: url(/young-handsome-physician-medical-robe-with-stethoscope.jpg) no-repeat center / cover;
+        padding: 50% 0 0;
+        width: 132%;
+    }
+  }
+
+.imgOne {
+    margin-left: 5em;
+  
+}
+.imgTwo {
+    margin-right: 5em;
+   
+}
+.innerCol{
+	display: flex;
+}
+.sbsImg{
+	display: flex;
+		justify-content: space-between;
+}
+.innerText {
+    width: 60%;
+    margin-left: 3em;
+}
+
+.innerText h1 {
+    padding-bottom: 20px;
+}
+.innerImg {
+    width: 100%;
+    text-align:center;
+    float:left;
+  }
+
+  .img-1 {
+    width: 100%;
+  }
+
+.innerCol{
+	  padding: 90px 0;
+}
+.timeineRow{
+	display: flex;
+	margin: 30px 0 0;
+  align-items: baseline;
+}
+.timeineRow .text{
+	width: 45%;
+	box-shadow: 0px 8px 20px #eee;
+}
+.timeineRow .iconImg{
+	width: 6%;
+	text-align: center;
+}
+.para{
+	width: 48.5%;
+	padding: 0 25px;
+}
+
+.column text p {
+  padding-top: 10px;
+  line-height: 1.7em;
+
+}
+
+
+
+
+.timeineRow h3{
+	font-size: 26px;
+  color: #fff;
+  background: #000;
+  padding: 70px 20px;
+  margin: 0px;
+}
+.timeineRow p{
+	margin: 0px;
+  padding: 60px;
+}
+.timeineRow .text:after{
+	width: 0px;
+	height: 0px;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent;
+}
+.leftbubble{
+	border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-left: 16px solid #000;
+	margin-right: 25px;
+}
+.rightbubble{
+	width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 16px solid #000;
+  border-bottom: 13px solid transparent;
+	z-index: 2;
+	margin-left: 25px;
+}
+.iconImg img{
+	box-shadow: 0px 8px 20px #eee;
+    border-radius: 50px;
+    padding: 10px;
+}
+.leftTimeline .text{
+	text-align: right;
+}
+.rightTimeline .para{
+	text-align: right;
+}
+.heading h2{
+	font-size: 35px;
+	text-align: center;
+	padding-top: 35px;
+}
+.checked {
+  color: #FFA500;
+}
+.patRow{
+	display: flex;
+}
+.midPat{
+	background: rgb(22, 21, 21);
+  color: #fff;
+}
+.patBox{
+	padding: 20px;
+	margin: 20px;
+}
+.imgIntro{
+	display: flex;
+  align-items: center;
+}
+.imgIntro p{
+	margin-bottom: 0px;
+  padding-left: 15px;
+}
+.blueContent{
+	color: #2085dd;
+}
+.lightBox{
+	opacity: 0.2;
+}
+
+.book-demo {
+    width: 80%;
+    margin-left: 10em;
+}
+
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5em;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+
+
+  .footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+    width: 100%;
+    padding-bottom: 6em;
+  }
+
+
+
+  .column {
+    float: left;
+    width: 33.33%;
+    margin-left: 5em;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+
+  .column p {
+    padding-top: 10px;
+    padding-left: 0px;
+
+
+  }
+
+  .column1 p {
+    padding-top: 10px;
+
+  }
+
+
+  .timeineRow {
+      margin-right: 10em;
+  }
+
+
+  .heading {
+      margin-top: 5em;
+      margin-bottom: 10em;
+  }
+
+  .second-img {
+      float: left;
+  }
+
+
+
+  @media only screen and (max-width: 360px (*)640px ){
+    .secondHalf {
+      width: 30%;
+      float: right;
+      margin-top: -346px;
+      background-color: #fff;
+      padding: 60px 60px 44px;
+    }
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 360px (*)640px ) {
+    .mainImg  {
+         background: url(/young-handsome-physician-medical-robe-with-stethoscope.jpg) no-repeat center / cover;
+        padding: 50% 0 0;
+        width: 132%;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .footer-dark  {
+            padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
+    width: 132%;
+    padding-bottom: 6em;
+          }
+        }
